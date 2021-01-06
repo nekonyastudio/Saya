@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;
+using Saya.Web.Dto.PaginatedList;
 
 namespace Saya.Web.Utils.PaginatedList
 {
@@ -39,6 +40,18 @@ namespace Saya.Web.Utils.PaginatedList
                 .ToListAsync();
 
             return new PaginatedList<T>(items, count, pageIndex, pageSize);
+        }
+
+
+        public PaginatedListDto<T> GetDto()
+        {
+            return new PaginatedListDto<T>
+            {
+                Data = this,
+                PageIndex = this.PageIndex,
+                TotalPages = this.TotalPages,
+                ItemCount = this.ItemCount
+            };
         }
 
     }
