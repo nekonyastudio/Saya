@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text.Json;
 using Microsoft.EntityFrameworkCore.ChangeTracking;
-using SSaya.Web.EntityFramework.Auditing.Entities;
+using Saya.Web.EntityFramework.Auditing.Entities;
 
 namespace Saya.Web.EntityFramework.Auditing
 {

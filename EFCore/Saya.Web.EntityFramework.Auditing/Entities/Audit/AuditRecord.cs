@@ -1,7 +1,7 @@
 using System;
 using Saya.Web.EntityFramework.Auditing.Entities.Audit;
 
-namespace SSaya.Web.EntityFramework.Auditing.Entities
+namespace Saya.Web.EntityFramework.Auditing.Entities
 {
     /// <summary>
     /// 通用审计记录 实体

@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;
 using Saya.Web.EntityFramework.Auditing.Entities;
-using SSaya.Web.EntityFramework.Auditing.Entities;
+using Saya.Web.EntityFramework.Auditing.Entities;
 
 namespace Saya.Web.EntityFramework.Auditing
 {
