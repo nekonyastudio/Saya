@@ -1,4 +1,4 @@
-name: publish to nuget Saya.Web.EntityFramework.auditing
+name: publish to nuget Saya.Web.EntityFramework.Auditing
 on:
   push:
     branches:
