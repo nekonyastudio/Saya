@@ -1,4 +1,4 @@
-name: publish to nuget Saya.Web.EntityFramework
+name: publish to nuget Saya.Web.EntityFramework.auditing
 on:
   push:
     branches:
@@ -21,10 +21,10 @@ jobs:
         uses: rohith/publish-nuget@v2
         with:
           # Filepath of the project to be packaged, relative to root of repository
-          PROJECT_FILE_PATH: EFCore/Saya.Web.EntityFramework/Saya.Web.EntityFramework.csproj
+          PROJECT_FILE_PATH: EFCore/Saya.Web.EntityFramework.Auditing/Saya.Web.EntityFramework.Auditing.csproj
           
           # NuGet package id, used for version detection & defaults to project name
-          PACKAGE_NAME: Saya.Web.EntityFramework
+          PACKAGE_NAME: Saya.Web.EntityFramework.Auditing
           
           # Filepath with version info, relative to root of repository & defaults to PROJECT_FILE_PATH
           # VERSION_FILE_PATH: Directory.Build.props
