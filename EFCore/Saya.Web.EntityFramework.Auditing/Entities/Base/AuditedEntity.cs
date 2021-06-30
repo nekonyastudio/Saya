@@ -13,12 +13,12 @@ namespace Saya.Web.EntityFramework.Auditing.Entities
         /// <summary>
         /// 创建时间
         /// </summary>
-        public virtual DateTime? CreateTime { get; set; }
+        public virtual DateTimeOffset? CreateTime { get; set; }
 
         /// <summary>
         /// 最后修改时间
         /// </summary>
-        public virtual DateTime? LastModificationTime { get; set; }
+        public virtual DateTimeOffset? LastModificationTime { get; set; }
 
         /// <summary>
         /// 创建者 用户ID
@@ -43,12 +43,12 @@ namespace Saya.Web.EntityFramework.Auditing.Entities
         /// <summary>
         /// 创建时间
         /// </summary>
-        public virtual DateTime? CreateTime { get; set; }
+        public virtual DateTimeOffset? CreateTime { get; set; }
 
         /// <summary>
         /// 最后修改时间
         /// </summary>
-        public virtual DateTime? LastModificationTime { get; set; }
+        public virtual DateTimeOffset? LastModificationTime { get; set; }
 
         /// <summary>
         /// 创建者 用户ID

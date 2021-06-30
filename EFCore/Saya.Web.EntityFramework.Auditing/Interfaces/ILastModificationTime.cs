@@ -7,6 +7,6 @@ namespace Saya.Web.EntityFramework.Auditing
     /// </summary>
     public interface ILastModificationTime
     {
-        DateTime? LastModificationTime { get; set; }
+        DateTimeOffset? LastModificationTime { get; set; }
     }
 }

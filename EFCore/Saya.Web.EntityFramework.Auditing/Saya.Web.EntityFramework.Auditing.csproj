@@ -8,7 +8,7 @@
     <Copyright>Nekonya Studio | yomunsam</Copyright>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <RootNamespace>Saya.Web.EntityFramework.Auditing</RootNamespace>
-    <Version>1.0.1</Version>
+    <Version>1.0.2</Version>
   </PropertyGroup>
 
   <ItemGroup>

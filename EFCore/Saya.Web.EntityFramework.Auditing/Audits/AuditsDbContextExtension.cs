@@ -47,8 +47,8 @@ namespace Saya.Web.EntityFramework.Auditing
                     else
                         auditEntry.Modifier = auditEntity.LastModifierId;
                     if (auditEntity.CreateTime == null)
-                        auditEntity.CreateTime = DateTime.UtcNow;
-                    auditEntity.LastModificationTime = DateTime.UtcNow; //始终更新
+                        auditEntity.CreateTime = DateTimeOffset.UtcNow;
+                    auditEntity.LastModificationTime = DateTimeOffset.UtcNow; //始终更新
                 }
                 #endregion
 
@@ -151,8 +151,8 @@ namespace Saya.Web.EntityFramework.Auditing
                     else
                         auditEntry.Modifier = auditEntity.LastModifierId;
                     if (auditEntity.CreateTime == null)
-                        auditEntity.CreateTime = DateTime.UtcNow;
-                    auditEntity.LastModificationTime = DateTime.UtcNow; //始终更新
+                        auditEntity.CreateTime = DateTimeOffset.UtcNow;
+                    auditEntity.LastModificationTime = DateTimeOffset.UtcNow; //始终更新
                 }
                 #endregion
 

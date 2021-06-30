@@ -7,6 +7,6 @@ namespace Saya.Web.EntityFramework.Auditing
     /// </summary>
     public interface ICreateTime
     {
-        DateTime? CreateTime { get; set; }
+        DateTimeOffset? CreateTime { get; set; }
     }
 }
