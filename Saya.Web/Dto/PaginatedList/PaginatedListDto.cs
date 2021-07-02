@@ -1,11 +1,11 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Text;
 using System.Text.Json.Serialization;
 
 namespace Saya.Web.Dto.PaginatedList
 {
-    public class PaginatedListDto<T>
+    public class PaginatedListDto<T> : IPaginatedInfo
     {
         /// <summary>
         /// 当前页 索引序号
