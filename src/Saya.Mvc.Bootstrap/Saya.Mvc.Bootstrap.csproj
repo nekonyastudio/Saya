@@ -3,6 +3,7 @@
   <PropertyGroup>
     <TargetFramework>net5.0</TargetFramework>
     <AddRazorSupportForMvc>true</AddRazorSupportForMvc>
+    <IsPackable>true</IsPackable>
     <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
     <Authors>yomunsam</Authors>
     <Company>Nekonya Studio</Company>
@@ -12,10 +13,10 @@
     <ApplicationIcon />
     <OutputType>Library</OutputType>
     <StartupObject />
-    <Description>Saya Mvc Bootstrap Library
-喵</Description>
-    <Copyright>Nekonya Studio | yomunsam</Copyright>
+    <Description>Saya Mvc Bootstrap Library喵</Description>
+    <Copyright>Copyright (c) Nekonya Studio | yomunsam</Copyright>
     <PackageReleaseNotes>喵</PackageReleaseNotes>
+    <RepositoryType>git</RepositoryType>
   </PropertyGroup>
 
   <ItemGroup>
