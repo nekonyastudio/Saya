@@ -5,17 +5,19 @@ VisualStudioVersion = 16.0.30114.105
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{C69E5EA5-A9FC-4A68-BC31-8C4FFFDB356B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Saya.Core", "src\Saya.Core\Saya.Core.csproj", "{5CF1A34E-E507-443E-B86E-6077F00EB4F5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Saya.Core", "src\Saya.Core\Saya.Core.csproj", "{5CF1A34E-E507-443E-B86E-6077F00EB4F5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Saya.Domain", "src\Saya.Domain\Saya.Domain.csproj", "{8369514E-6681-4D65-A849-7D3CA2347383}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Saya.Domain", "src\Saya.Domain\Saya.Domain.csproj", "{8369514E-6681-4D65-A849-7D3CA2347383}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Saya.EntityFramework", "src\Saya.EntityFramework\Saya.EntityFramework.csproj", "{5EBBC987-37AF-4B89-B545-C568A305E640}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Saya.EntityFramework", "src\Saya.EntityFramework\Saya.EntityFramework.csproj", "{5EBBC987-37AF-4B89-B545-C568A305E640}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Saya.EntityFramework.Auditing", "src\Saya.EntityFramework.Auditing\Saya.EntityFramework.Auditing.csproj", "{3BD75D63-6DD2-4570-A509-ED1009C469A3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Saya.EntityFramework.Auditing", "src\Saya.EntityFramework.Auditing\Saya.EntityFramework.Auditing.csproj", "{3BD75D63-6DD2-4570-A509-ED1009C469A3}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{9B16BB12-2E6B-4609-A5B3-61E9E9327C4C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Saya.EntityFramework.Auditing.Tests", "tests\Saya.EntityFramework.Auditing.Tests\Saya.EntityFramework.Auditing.Tests.csproj", "{A18787E7-B218-4F80-A5F7-56699151505E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Saya.EntityFramework.Auditing.Tests", "tests\Saya.EntityFramework.Auditing.Tests\Saya.EntityFramework.Auditing.Tests.csproj", "{A18787E7-B218-4F80-A5F7-56699151505E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Saya.Mvc.Bootstrap", "src\Saya.Mvc.Bootstrap\Saya.Mvc.Bootstrap.csproj", "{3A6E07F1-276F-477C-AB9F-F44F9427315D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -87,6 +89,18 @@ Global
 		{A18787E7-B218-4F80-A5F7-56699151505E}.Release|x64.Build.0 = Release|Any CPU
 		{A18787E7-B218-4F80-A5F7-56699151505E}.Release|x86.ActiveCfg = Release|Any CPU
 		{A18787E7-B218-4F80-A5F7-56699151505E}.Release|x86.Build.0 = Release|Any CPU
+		{3A6E07F1-276F-477C-AB9F-F44F9427315D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A6E07F1-276F-477C-AB9F-F44F9427315D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3A6E07F1-276F-477C-AB9F-F44F9427315D}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{3A6E07F1-276F-477C-AB9F-F44F9427315D}.Debug|x64.Build.0 = Debug|Any CPU
+		{3A6E07F1-276F-477C-AB9F-F44F9427315D}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{3A6E07F1-276F-477C-AB9F-F44F9427315D}.Debug|x86.Build.0 = Debug|Any CPU
+		{3A6E07F1-276F-477C-AB9F-F44F9427315D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3A6E07F1-276F-477C-AB9F-F44F9427315D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3A6E07F1-276F-477C-AB9F-F44F9427315D}.Release|x64.ActiveCfg = Release|Any CPU
+		{3A6E07F1-276F-477C-AB9F-F44F9427315D}.Release|x64.Build.0 = Release|Any CPU
+		{3A6E07F1-276F-477C-AB9F-F44F9427315D}.Release|x86.ActiveCfg = Release|Any CPU
+		{3A6E07F1-276F-477C-AB9F-F44F9427315D}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -97,6 +111,7 @@ Global
 		{5EBBC987-37AF-4B89-B545-C568A305E640} = {C69E5EA5-A9FC-4A68-BC31-8C4FFFDB356B}
 		{3BD75D63-6DD2-4570-A509-ED1009C469A3} = {C69E5EA5-A9FC-4A68-BC31-8C4FFFDB356B}
 		{A18787E7-B218-4F80-A5F7-56699151505E} = {9B16BB12-2E6B-4609-A5B3-61E9E9327C4C}
+		{3A6E07F1-276F-477C-AB9F-F44F9427315D} = {C69E5EA5-A9FC-4A68-BC31-8C4FFFDB356B}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {880D4194-197E-4602-94A7-1425351F8BA2}
