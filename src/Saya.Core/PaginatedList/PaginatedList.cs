@@ -33,7 +33,7 @@ namespace Saya.Core.PaginatedList
                 Data = this,
                 PageIndex = this.PageIndex,
                 TotalPages = this.TotalPages,
-                ItemCount = this.Count
+                ItemCount = this.ItemCount
             };
         }
 
