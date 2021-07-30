@@ -2,13 +2,15 @@
 
   <PropertyGroup>
     <TargetFramework>net5.0</TargetFramework>
-    <Version>2.0.0</Version>
+    <Version>2.0.1</Version>
     <Authors>yomunsam</Authors>
     <Company>Nekonya Studio</Company>
     <Copyright>Nekonya Studio | yomunsam</Copyright>
     <PackageLicenseFile>LICENSE</PackageLicenseFile>
     <RepositoryUrl>https://github.com/nekonyastudio/Saya</RepositoryUrl>
     <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
+    <Description>👀</Description>
+    <PackageProjectUrl>https://github.com/nekonyastudio/Saya</PackageProjectUrl>
   </PropertyGroup>
 
   <ItemGroup>
