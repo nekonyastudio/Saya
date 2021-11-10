@@ -1,7 +1,7 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>net5.0</TargetFramework>
+    <TargetFramework>net6.0</TargetFramework>
     <Copyright>Nekonya Studio | yomunsam</Copyright>
     <PackageLicenseFile>LICENSE</PackageLicenseFile>
     <PackageProjectUrl>https://github.com/nekonyastudio/Saya</PackageProjectUrl>
@@ -9,8 +9,9 @@
     <Authors>yomunsam</Authors>
     <Company>Nekonya Studio</Company>
     <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
-    <Version>2.0.1</Version>
+    <Version>2.0.2</Version>
     <Description>😶</Description>
+    <PackageReleaseNotes>升级到 .net 6</PackageReleaseNotes>
   </PropertyGroup>
 
   <ItemGroup>
