@@ -1,14 +1,22 @@
-using System.Collections.Generic;
+namespace Saya.Core.Dto.PaginatedList;
 
-namespace Saya.Core.Dto.PaginatedList
+/// <summary>
+/// 分页信息
+/// </summary>
+public interface IPaginatedInfo
 {
     /// <summary>
-    /// 分页信息
+    /// 当前页 索引序号
     /// </summary>
-    public interface IPaginatedInfo
-    {
-        int PageIndex { get; set; }
-        int TotalPages { get; set; }
-        long ItemCount { get; set; }
-    }
+    int PageIndex { get; set; }
+
+    /// <summary>
+    /// 总页数
+    /// </summary>
+    int TotalPages { get; set; }
+
+    /// <summary>
+    /// 总数据条目数
+    /// </summary>
+    long ItemCount { get; set; }
 }

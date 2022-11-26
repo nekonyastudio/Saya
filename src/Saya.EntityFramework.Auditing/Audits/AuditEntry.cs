@@ -72,15 +72,17 @@ namespace Saya.EntityFramework.Auditing.Audits
 
         public AuditRecord<TUser> ToAudit()
         {
-            var audit = new AuditRecord<TUser>();
-            audit.TableName = TableName;
-            audit.UpdateTime = DateTimeOffset.UtcNow;
-            audit.KeyValues = JsonSerializer.Serialize(KeyValues);
-            audit.OriginalValues = OriginalValues.Count == 0 ? null : JsonSerializer.Serialize(OriginalValues);
-            audit.NewValues = NewValues.Count == 0 ? null : JsonSerializer.Serialize(NewValues);
+            var audit = new AuditRecord<TUser>
+            {
+                TableName = TableName,
+                UpdateTime = DateTimeOffset.UtcNow,
+                KeyValues = JsonSerializer.Serialize(KeyValues),
+                OriginalValues = OriginalValues.Count == 0 ? null : JsonSerializer.Serialize(OriginalValues),
+                NewValues = NewValues.Count == 0 ? null : JsonSerializer.Serialize(NewValues),
 
-            audit.OperationType = this.OperationType;
-            audit.UpdateBy = this.Modifier;
+                OperationType = this.OperationType,
+                UpdateBy = this.Modifier
+            };
 
             return audit;
         }

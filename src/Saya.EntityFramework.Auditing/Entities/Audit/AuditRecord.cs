@@ -1,27 +1,26 @@
 using System;
 
-namespace Saya.EntityFramework.Auditing.Entities.Audit
+namespace Saya.EntityFramework.Auditing.Entities.Audit;
+
+/// <summary>
+/// 通用审计记录 实体
+/// （这玩意是用来存储审计记录本身的实体，不是用来让实体拥有审计功能的基类）
+/// </summary>
+[Serializable]
+public class AuditRecord : AuditRecord<string>
 {
     /// <summary>
-    /// 通用审计记录 实体
-    /// （这玩意是用来存储审计记录本身的实体，不是用来让实体拥有审计功能的基类）
+    /// 获取自己的泛型对象
     /// </summary>
-    [Serializable]
-    public class AuditRecord : AuditRecord<string>
+    /// <returns></returns>
+    public virtual AuditRecord<string> GetGenericEntity()
     {
-        /// <summary>
-        /// 获取自己的泛型对象
-        /// </summary>
-        /// <returns></returns>
-        public virtual AuditRecord<string> GetGenericEntity()
-        {
-            return this;
-        }
+        return this;
     }
+}
 
-    [Serializable]
-    public class AuditRecord<TUser> : AuditRecordBase<TUser>
-    {
+[Serializable]
+public class AuditRecord<TUser> : AuditRecordBase<TUser>
+{
 
-    }
 }

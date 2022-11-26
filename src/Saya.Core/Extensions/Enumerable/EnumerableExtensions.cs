@@ -1,12 +1,11 @@
 using System.Collections.Generic;
 
-namespace Saya.Core.Extensions.Enumerable
+namespace Saya.Core.Extensions.Enumerable;
+
+public static class EnumerableExtensions
 {
-    public static class EnumerableExtensions
+    public static string JoinAsString<T>(this IEnumerable<T> source, string separator)
     {
-        public static string JoinAsString<T>(this IEnumerable<T> source, string separator)
-        {
-            return string.Join(separator, source);
-        }
+        return string.Join(separator, source);
     }
 }

@@ -1,10 +1,9 @@
-namespace Saya.EntityFramework.Auditing.Audits
+namespace Saya.EntityFramework.Auditing.Audits;
+
+public enum DataOperationType : sbyte
 {
-    public enum DataOperationType : sbyte
-    {
-        Unknow = 0,
-        Add = 1,
-        Delete = 2,
-        Update = 3
-    }
+    Unknow = 0,
+    Add = 1,
+    Delete = 2,
+    Update = 3
 }

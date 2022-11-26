@@ -36,8 +36,10 @@ namespace Saya.EntityFramework.Auditing
                 }
 
 
-                var auditEntry = new AuditEntry<TUser>(entry);
-                auditEntry.TableName = entry.Metadata.GetTableName();
+                var auditEntry = new AuditEntry<TUser>(entry)
+                {
+                    TableName = entry.Metadata.GetTableName()
+                };
                 auditEntries.Add(auditEntry);
 
                 #region 操作用户
@@ -136,8 +138,10 @@ namespace Saya.EntityFramework.Auditing
                 }
 
 
-                var auditEntry = new AuditEntry(entry);
-                auditEntry.TableName = entry.Metadata.GetTableName();
+                var auditEntry = new AuditEntry(entry)
+                {
+                    TableName = entry.Metadata.GetTableName()
+                };
                 auditEntries.Add(auditEntry);
 
                 #region 操作用户

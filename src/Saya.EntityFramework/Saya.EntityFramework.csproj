@@ -1,8 +1,8 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>net6.0</TargetFramework>
-    <Version>2.0.2</Version>
+    <TargetFramework>net7.0</TargetFramework>
+    <Version>2.1.0</Version>
     <Authors>yomunsam</Authors>
     <Company>Nekonya Studio</Company>
     <Copyright>Nekonya Studio | yomunsam</Copyright>
@@ -11,7 +11,7 @@
     <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
     <Description>👀</Description>
     <PackageProjectUrl>https://github.com/nekonyastudio/Saya</PackageProjectUrl>
-    <PackageReleaseNotes>升级到 .net 6</PackageReleaseNotes>
+    <PackageReleaseNotes>升级到 dotnet7</PackageReleaseNotes>
   </PropertyGroup>
 
   <ItemGroup>
@@ -26,7 +26,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="6.0.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="7.0.0" />
   </ItemGroup>
 
 </Project>
