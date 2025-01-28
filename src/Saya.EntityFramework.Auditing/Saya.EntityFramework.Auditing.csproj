@@ -1,14 +1,14 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>net7.0</TargetFramework>
-    <Version>2.1.0</Version>
+    <TargetFramework>net9.0</TargetFramework>
+    <Version>9.0.0</Version>
     <Authors>yomunsam</Authors>
     <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
     <Company>Nekonya Studio</Company>
     <PackageLicenseFile>LICENSE</PackageLicenseFile>
     <RepositoryUrl>https://github.com/nekonyastudio/Saya</RepositoryUrl>
-    <PackageReleaseNotes>升级到 dotnet 7</PackageReleaseNotes>
+    <PackageReleaseNotes>Hello dotnet 9</PackageReleaseNotes>
   </PropertyGroup>
 
   <ItemGroup>
@@ -19,7 +19,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="Microsoft.EntityFrameworkCore.Relational" Version="7.0.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Relational" Version="9.0.1" />
   </ItemGroup>
 
   <ItemGroup>
