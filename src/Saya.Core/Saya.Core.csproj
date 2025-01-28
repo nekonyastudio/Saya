@@ -1,7 +1,7 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>net7.0</TargetFramework>
+    <TargetFramework>net9.0</TargetFramework>
     <Copyright>Nekonya Studio | yomunsam</Copyright>
     <PackageLicenseFile>LICENSE</PackageLicenseFile>
     <PackageProjectUrl>https://github.com/nekonyastudio/Saya</PackageProjectUrl>
@@ -9,9 +9,9 @@
     <Authors>yomunsam</Authors>
     <Company>Nekonya Studio</Company>
     <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
-    <Version>2.1.0</Version>
+    <Version>9.0.0</Version>
     <Description>😶</Description>
-    <PackageReleaseNotes>升级到 dotnet 7</PackageReleaseNotes>
+    <PackageReleaseNotes>Hello dotnet 9</PackageReleaseNotes>
   </PropertyGroup>
 
   <ItemGroup>
