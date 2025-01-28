@@ -12,6 +12,8 @@
     <Version>9.0.0</Version>
     <Description>😶</Description>
     <PackageReleaseNotes>Hello dotnet 9</PackageReleaseNotes>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <RepositoryType>git</RepositoryType>
   </PropertyGroup>
 
   <ItemGroup>

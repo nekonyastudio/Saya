@@ -17,6 +17,7 @@
     <Copyright>Copyright (c) Nekonya Studio | yomunsam</Copyright>
     <PackageReleaseNotes>喵</PackageReleaseNotes>
     <RepositoryType>git</RepositoryType>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
   </PropertyGroup>
 
   <ItemGroup>
